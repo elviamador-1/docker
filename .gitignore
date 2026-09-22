@@ -1,0 +1,49 @@
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Volúmenes y datos
+mysql_data/
+html/uploads/
+html/cache/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Temporal
+tmp/
+temp/
+*.tmp
+
+# Sistema
+Thumbs.db
+.directory
+
+# Docker local
+docker-compose.override.yaml
+Dockerfile.dev
+
+# Backups
+*.sql.bak
+*.tar.gz
+backups/

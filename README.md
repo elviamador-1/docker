@@ -1,6 +1,3 @@
-# docker
-explicación instalación docker
-
 # Docker Compose: phpMyAdmin + Apache + MySQL
 
 Documentación completa del entorno de desarrollo con tres contenedores separados: MySQL, Apache con PHP y phpMyAdmin.

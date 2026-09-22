@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (si usas npm)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__
+*.pyc
+.pytest_cache
+venv/
+
+# Docker
+docker-compose.override.yaml
+Dockerfile.dev
+.dockerignore
+
+# Archivos del sistema
+.env.local
+.env.*.local
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporal
+tmp/
+temp/
+*.tmp
+
+# Documentación local
+NOTAS.md
+TODO.md
